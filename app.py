@@ -3,7 +3,7 @@ import streamlit as st
 # ページの設定
 st.set_page_config(page_title="干支チェッカー", page_icon="📅")
 
-st.title("📅 動的・干支チェッカー")
+st.subheader("📅 動的・干支チェッカー")
 st.write("西暦を入力すると、その年の情報を即座に表示します。")
 
 # 入力欄（ここで数字を変えると動的に結果が変わります）
